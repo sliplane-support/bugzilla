@@ -2,7 +2,7 @@ FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update && apt-get -y dist-upgrade
+RUN apt-get update
 RUN apt-get -y install \
  apache2 \
  mariadb-client \
